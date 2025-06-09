@@ -2,6 +2,7 @@
 ### School project
 This project's sole purpose is to connect to a database and display the contents. In the first round it's just a bare-minimum-type-of-a-deal. 
 It's very basic, only a button on landing page. Click button and get four randomized words from the database. 
+
 ![Screenshot of website](<Screenshot 2025-06-09 at 23.14.08.png>)
 
 I followed my [sensei's tutorial](https://blog.stackademic.com/the-mongodb-and-next-js-stack-for-beginners-b4394872f5bb) (Hæ Smári!)
