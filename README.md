@@ -9,7 +9,7 @@ I followed my [sensei's tutorial](https://blog.stackademic.com/the-mongodb-and-n
 I deviated a little bit from this tutorial but the basics are there. 
 I´ve included the client and server side logs. 
 
-----
+-----
 
 ### In other news
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
