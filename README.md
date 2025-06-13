@@ -1,13 +1,16 @@
 
 ### School project
-This project's sole purpose is to connect to a database and display the contents. In the first round it's just a bare-minimum-type-of-a-deal. 
+This project's sole purpose is to connect to a database and display the contents. In the first round it's just a bare-minimum-type-of-a-deal.
+I followed my [sensei's tutorial](https://blog.stackademic.com/the-mongodb-and-next-js-stack-for-beginners-b4394872f5bb) (Hæ Smári!) 
+
 It's very basic, only a button on landing page. Click button and get four randomized words from the database. 
 
-![Screenshot of website](<./public/screenshot.png>)
+<img src="./public/screenshot.png" alt="Screenshot of website" width="400"/>
 
-I followed my [sensei's tutorial](https://blog.stackademic.com/the-mongodb-and-next-js-stack-for-beginners-b4394872f5bb) (Hæ Smári!)
 
-I deviated a little bit from this tutorial and added to it some things that were needed. I've f.ex. added hooks to manage component state and I'm using effect hooks for fetching data from my API. Also incorporated f.ex. arrays, props, event handling, async functions and more. 
+
+
+I deviated a little bit from the tutorial and added to it some things that were needed for what I wanted to display. I've f.ex. added hooks to manage component state and I'm using effect hooks for fetching data from my API. Also incorporated f.ex. arrays, props, event handling, async functions and more. 
 
 I´ve included the client and server side logs that were a part of the tutorial. 
 
