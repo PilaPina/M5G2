@@ -15,11 +15,6 @@ export async function GET() {
       strict: true,
       deprecationErrors: true,
     },
-        // ─── Trying to fix deployment server error ────────────────────────────────
-    tls: true,                         // force TLS handshake
-    // tlsAllowInvalidCertificates: true, // un-comment only if certs are self-signed
-    // ssl: true,                         // alias for tls:true
-    // sslValidate: false,                // alias for tlsAllowInvalidCertificates
   });
 
   try {
