@@ -6,8 +6,12 @@ It's very basic, only a button on landing page. Click button and get four random
 ![Screenshot of website](<./public/screenshot.png>)
 
 I followed my [sensei's tutorial](https://blog.stackademic.com/the-mongodb-and-next-js-stack-for-beginners-b4394872f5bb) (Hæ Smári!)
-I deviated a little bit from this tutorial but the basics are there. 
-I´ve included the client and server side logs. 
+
+I deviated a little bit from this tutorial and added to it some things that were needed. I've f.ex. added hooks to manage component state and I'm using effect hooks for fetching data from my API. Also incorporated f.ex. arrays, props, event handling, async functions and more. 
+
+I´ve included the client and server side logs that were a part of the tutorial. 
+
+On the landing page I've included a link to Smári's tutorial and a link wher you can learn MongoDB
 
 -----
 

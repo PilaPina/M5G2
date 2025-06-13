@@ -14,14 +14,18 @@ function shuffle<T>(array: T[]): T[] {
 }
 
 export default function DatabaseStatus() {
+  // State for connection status
   const [status, setStatus] = useState<string>("Loading...");
+  // State for the array of words to display
   const [displayWords, setDisplayWords] = useState<{ word: string }[]>([]);
 
+  // Fetch words from the API when the component mounts
   useEffect(() => {
     fetch("/api/database")
       .then(res => res.json())
       .then(data => {
         setStatus(data.message || data.error || "Unknown response");
+        // If words are returned, shuffle and select four random words
         if (Array.isArray(data.words)) {
           setDisplayWords(shuffle(data.words as { word: string }[]).slice(0, 4));
         }
